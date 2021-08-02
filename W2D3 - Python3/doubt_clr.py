@@ -1,5 +1,5 @@
 # a = int(input("Enter the number"))
-# print(a%2==0)
+print(12%4==0)
 
 # a = input(11)
 # b = input(12)
