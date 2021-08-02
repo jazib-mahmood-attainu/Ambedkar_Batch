@@ -41,30 +41,30 @@ Q - FizzBuzz, div by 3 - fizz, div by 5 - Fuzz, div by both - fizz-buzz
 #     print("reject the student")
 
 
-# a = int(input("Enter value of a: "))
-
-# if a%2==0:
-#     n = a%100
-#     if n%4==0:
-#         print("div by 4 and div by 2")
-#     else:
-#         print("div by 2 but not by 4")
-# else:
-#     print("a is not divisible by 2, and not divisible by 4 also")
-
 a = int(input("Enter value of a: "))
 
-if a%3==0 and a%5==0:
-    print("FIZZ_BUZZ")
-elif a%3==0 :
-    print("FIZZ")
-elif a%5==0:
-    print("FUZZ")
+if a%2==0:
+    n = a%100
+    if n%4==0:
+        print("div by 4 and div by 2")
+    else:
+        print("div by 2 but not by 4")
 else:
-    print("not div by 3 or 5")
+    print("a is not divisible by 2, and not divisible by 4 also")
+
+# a = int(input("Enter value of a: "))
+
+# if a%3==0 or a%5==0:
+#     print("FIZZ_BUZZ")
+# elif a%3==0 :
+#     print("FIZZ")
+# elif a%5==0:
+#     print("FUZZ")
+# else:
+#     print("not div by 3 or 5")
     
-n = 5 
-if(n>3):
-    print("greater than 5")
-elif(n>4):
-    print("greater than 4")
+# n = 5 
+# if(n>3):
+#     print("greater than 5")
+# elif(n>4):
+#     print("greater than 4")
