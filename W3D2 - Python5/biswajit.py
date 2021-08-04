@@ -1,15 +1,10 @@
-ctr = 0
-l = list()
-for i in range(1,101):
-    if i%2==0:
-        
-        l.append(i)
-# print(l)
-j = 0
-for i in range(len(l)//3):
-    if ctr == 10:
-        break
-    ctr+=1
-    print(l[j])
-    j = j+3
-    
+a = int(input()) 
+b = int(input()) 
+c = int(input()) 
+if a>b or a>c: 
+    if a<b or a<c: 
+        print(a) 
+elif b>a or b>c: 
+    if b<a or b<c: 
+        print(b) 
+else : print(c) 
