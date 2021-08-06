@@ -54,7 +54,7 @@ q - 3 ) printing name and batch of students
     
 
 
-# t = add_two_nos(2,3)   #s = 5
+# t = add_two_nos(2,3)   #t = 5
 # print(t)
 
 
