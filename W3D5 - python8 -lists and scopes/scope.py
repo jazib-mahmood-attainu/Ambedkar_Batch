@@ -10,10 +10,18 @@ def ABC():
 """
 
 # sum = 5                                     #global variable
-def ABC():
-    sum = 10                                #local variable
-    # print("value of sum inside the function is ",sum)
+# def ABC():
+#     sum = 10                                #local variable
+#     # print("value of sum inside the function is ",sum)
 
-ABC()
+# ABC()
 
-print(sum)
+# print(sum)
+
+x = 50 #global
+def func(x):
+    print('x is', x)
+    x = 2#local
+    print('Changed local x to', x)
+func(x)
+print('x is now', x) 
