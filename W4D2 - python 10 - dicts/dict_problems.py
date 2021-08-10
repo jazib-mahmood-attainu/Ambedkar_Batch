@@ -38,4 +38,5 @@ for val in freq.values():
 
 
 a = {1,2,3}
-print(a)
+b = {3,"d","e"}
+print(a-b)
