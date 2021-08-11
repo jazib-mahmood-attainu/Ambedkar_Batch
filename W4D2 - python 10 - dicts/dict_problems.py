@@ -40,3 +40,10 @@ for val in freq.values():
 a = {1,2,3}
 b = {3,"d","e"}
 print(a-b)
+print(a.intersection(b))
+
+x = ["apple", "banana", "cherry"]
+
+del x[0]
+
+print(x)

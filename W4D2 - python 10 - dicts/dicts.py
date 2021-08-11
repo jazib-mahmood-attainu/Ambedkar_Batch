@@ -69,8 +69,12 @@ print(height["Rajnish"])
 # print(home_town["Biswajit"])
 
 
-height.pop("Jazib")
+# height.pop("Jazib")
 print(height)
 
 print(len(height.keys()))
 print(height.values())
+
+
+del height["Jazib"]
+print(height)
