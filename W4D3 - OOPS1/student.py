@@ -11,10 +11,18 @@ class Student:
         self.age = a
         self.birth_year = b
 
+
     def read(self):
         print("student ",self.name," is reading")
 
     def write(self):
         print("student ",self.name," is writing")
+    sup
+    def func():
+        pass
 
+
+
+
+    
 
