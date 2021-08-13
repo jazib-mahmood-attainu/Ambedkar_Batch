@@ -1,4 +1,5 @@
-from animal.dog import Dog
+# from animal.animal import Animal
+from animals.dog import Dog
 
 
 if __name__=="__main__":

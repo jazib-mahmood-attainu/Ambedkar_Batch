@@ -1,4 +1,4 @@
-from .animal import Animal
+from animals.animal import Animal
 class Dog(Animal):
     def __init__(self, name, no_of_legs, has_tail,breed):
         self.breed = breed
@@ -9,3 +9,6 @@ class Dog(Animal):
 
     def bark(self):
         print(self.name,"is barking")
+
+d = Dog("whisky",4,True,"Beagle")
+print(d.name)

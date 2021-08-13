@@ -17,9 +17,7 @@ class Student:
 
     def write(self):
         print("student ",self.name," is writing")
-    sup
-    def func():
-        pass
+    
 
 
 
