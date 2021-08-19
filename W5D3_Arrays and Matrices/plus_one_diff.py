@@ -18,5 +18,5 @@ class Solution:
     
     
 obj = Solution()
-result = obj.plusOne([1,2,3])
+result = obj.plusOne([9,9,9])
 print(result)
