@@ -72,7 +72,10 @@ def merge_sort(A,l,r):
     if l==r:
         return
     merge_sort(A,l,m)
+
     merge_sort(A,m+1,r)
+    print(A)
+
     merge(A,l,m,m+1,r)
 
 
@@ -83,8 +86,12 @@ if __name__=="__main__":
     B = [2,6,9,14,17,18] #m elements
     # stupid_merge(A,B)
 
-    res_l = merge_two_lists(A,B)    
-    print(res_l,"result")
+    # res_l = merge_two_lists(A,B)    
+    # print(res_l,"result")
+
+    A = [8,5,6,3,9,8,3,9]
+    merge_sort(A,0,len(A)-1)
+    print(A)
 
 
         
