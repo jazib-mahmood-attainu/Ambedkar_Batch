@@ -1,4 +1,4 @@
-heap = [1,9,3,7,6,5,4,8,2]
+heap = [8,5,6,3,9,8,3,9,1,8]
 def heapify(i):
     global heap
 
@@ -21,7 +21,21 @@ def heapify(i):
         heap[i],heap[max_idx] = heap[max_idx],heap[i]
         heapify(max_idx)
 
-    
-heapify(0)
 
-print(heap)
+def heapsort():
+    global heap
+    while(len(heap)!=0):
+        print(heap[0], end = " ")
+        heap[0],heap[-1] = heap[-1],heap[0]
+        heap.pop()
+        heapify(0)
+    
+    
+if __name__=="__main__":
+    n = len(heap)
+    print(heap)
+    for i in range(n-1,-1,-1):
+        heapify(i)
+    print(heap)    
+    heapsort()
+
