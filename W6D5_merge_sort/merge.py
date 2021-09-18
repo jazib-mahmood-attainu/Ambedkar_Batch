@@ -75,7 +75,6 @@ def merge_sort(A,l,r):
 
     merge_sort(A,m+1,r)
     print(A)
-
     merge(A,l,m,m+1,r)
 
 
